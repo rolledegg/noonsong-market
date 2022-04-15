@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Widget.bottomNavigationView"
+    parent = "Widget.Design.BottomNavigationView">
+    <item name ="android:fontFamily">@font/one_mobile_regular</item>
+    <item name ="android:textSize">5sp</item>
+
+</style>
+</resources>

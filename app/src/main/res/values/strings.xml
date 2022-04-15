@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">눈송마켓</string>
+
+    <string name="bottom_nav_tap_home">홈</string>
+    <string name="bottom_nav_tap_post">등록</string>
+    <string name="bottom_nav_tap_chatting">채팅</string>
+    <string name="bottom_nav_tap_mypage">내 정보</string>
+</resources>
