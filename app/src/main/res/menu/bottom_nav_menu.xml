@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/page_home"
-        app:showAsAction="ifRoom"
         android:enabled="true"
         android:icon="@drawable/ic_home_24"
-        android:title="@string/bottom_nav_tap_home"/>
+        android:title="@string/bottom_nav_tap_home"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/page_post"
-        app:showAsAction="ifRoom"
         android:enabled="true"
         android:icon="@drawable/ic_add_24"
-        android:title="@string/bottom_nav_tap_post"/>
+        android:title="@string/bottom_nav_tap_post"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/page_chatting"
-        app:showAsAction="ifRoom"
         android:enabled="true"
         android:icon="@drawable/ic_chat_24"
-        android:title="@string/bottom_nav_tap_chatting"/>
+        android:title="@string/bottom_nav_tap_chatting"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/page_mypage"
-        app:showAsAction="ifRoom"
         android:enabled="true"
         android:icon="@drawable/ic_mypage_24"
-        android:title="@string/bottom_nav_tap_mypage"/>
+        android:title="@string/bottom_nav_tap_mypage"
+        app:showAsAction="ifRoom" />
 </menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "28924142880",
+    "project_id": "login-9572d",
+    "storage_bucket": "login-9572d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28924142880:android:9082ce178d6cb10276e345",
+        "android_client_info": {
+          "package_name": "smu.app.noonsong_market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28924142880-k6i91punjrqceua57a677gj54qg2fip2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "smu.app.noonsong_market",
+            "certificate_hash": "a6563fc68284db37d00d7e26ef170c9faf39c8fa"
+          }
+        },
+        {
+          "client_id": "28924142880-li7c9rg18pvfmd42r72qcobqlo0cglr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUTtDCCoxS28_fnxWWE_0oTvFFx2BsAOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28924142880-li7c9rg18pvfmd42r72qcobqlo0cglr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
