@@ -2,20 +2,25 @@ package smu.app.noonsong_market
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Window
-import android.widget.Button
-import androidx.fragment.app.Fragment
-import com.google.android.material.bottomnavigation.BottomNavigationMenuView
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import smu.app.noonsong_market.databinding.ActivityMainBinding
+import smu.app.noonsong_market.fragment.ChattingFragment
+import smu.app.noonsong_market.fragment.HomeFragment
+import smu.app.noonsong_market.fragment.MyPageFragment
 
 class MainActivity : AppCompatActivity() {
 
     // 멤버 변수 선언
+    private  lateinit var binding: ActivityMainBinding
+
     private val  bottomNavigationView: BottomNavigationView by lazy {
-        findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        binding.bottomNavigation
     }
     private val homeFragment: HomeFragment by lazy {
        HomeFragment.newInstance()
+    }
+    private val chattingFragment: ChattingFragment by lazy {
+        ChattingFragment.newInstance()
     }
     private val myPageFragment: MyPageFragment by lazy {
         MyPageFragment.newInstance()
@@ -23,10 +28,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         // default fragment
-
         supportFragmentManager.beginTransaction().add(R.id.container,homeFragment).commit()
 
 
@@ -43,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.page_chatting->{
-                    supportFragmentManager.beginTransaction().replace(R.id.container,homeFragment).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.container,chattingFragment).commit()
 
                     true
                 }

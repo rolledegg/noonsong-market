@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyPageFragment">
+    tools:context=".fragment.MyPageFragment">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:textSize="40dp"
-        android:text="My page"/>
+        android:text="My page2"/>
 
 </FrameLayout>
