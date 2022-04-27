@@ -1,5 +1,6 @@
 package smu.app.noonsong_market
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -43,8 +44,8 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.page_post->{
-                    supportFragmentManager.beginTransaction().replace(R.id.container,myPageFragment).commit()
-
+                    val intent = Intent(this,PublishActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.page_chatting->{

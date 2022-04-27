@@ -5,33 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:paddingRight="16sp"
-    android:paddingLeft="16sp"
     tools:context=".fragment.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+   
+
     <TextView
         android:id="@+id/recent_article_list_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:fontFamily="@font/one_mobile_regular"
+        android:paddingLeft="16sp"
         android:paddingTop="10dp"
+        android:paddingRight="16sp"
         android:paddingBottom="10dp"
         android:text="@string/recent_article_list_title"
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/categoryGridView" />
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/lighter_gray"
+        android:fontFamily="@font/one_mobile_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recent_article_list_tv" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/articleRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/recent_article_list_tv" />
+        app:layout_constraintTop_toBottomOf="@id/line1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

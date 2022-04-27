@@ -15,7 +15,7 @@
         android:paddingBottom="16dp">
 
         <ImageView
-            android:id="@+id/article_iv"
+            android:id="@+id/product_iv"
             android:layout_width="85sp"
             android:layout_height="85sp"
             android:layout_marginStart="3sp"
@@ -25,7 +25,7 @@
             app:srcCompat="@drawable/sample_img" />
 
         <TextView
-            android:id="@+id/article_title_tv"
+            android:id="@+id/product_title_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -37,22 +37,22 @@
             android:textColor="@color/black"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/article_iv"
-            app:layout_constraintTop_toTopOf="@id/article_iv" />
+            app:layout_constraintStart_toEndOf="@id/product_iv"
+            app:layout_constraintTop_toTopOf="@id/product_iv" />
 
         <TextView
-            android:id="@+id/article_date_tv"
+            android:id="@+id/product_date_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="1dp"
             android:text="4월 22일 오후 02:00"
             android:textSize="9sp"
-            app:layout_constraintStart_toEndOf="@id/article_iv"
-            app:layout_constraintTop_toBottomOf="@id/article_title_tv" />
+            app:layout_constraintStart_toEndOf="@id/product_iv"
+            app:layout_constraintTop_toBottomOf="@id/product_title_tv" />
 
         <TextView
-            android:id="@+id/article_price_tv"
+            android:id="@+id/product_price_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -60,11 +60,11 @@
             android:text="220,000원"
             android:textColor="@color/black"
             android:textSize="16sp"
-            app:layout_constraintStart_toEndOf="@id/article_iv"
-            app:layout_constraintTop_toBottomOf="@id/article_date_tv" />
+            app:layout_constraintStart_toEndOf="@id/product_iv"
+            app:layout_constraintTop_toBottomOf="@id/product_date_tv" />
 
         <TextView
-            android:id="@+id/article_status_tv"
+            android:id="@+id/product_status_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -74,8 +74,8 @@
             android:text="판매완료"
             android:textColor="@color/white"
             android:textSize="8sp"
-            app:layout_constraintStart_toEndOf="@id/article_iv"
-            app:layout_constraintTop_toBottomOf="@id/article_price_tv" />
+            app:layout_constraintStart_toEndOf="@id/product_iv"
+            app:layout_constraintTop_toBottomOf="@id/product_price_tv" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
