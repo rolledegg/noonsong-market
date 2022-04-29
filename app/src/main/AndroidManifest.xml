@@ -14,7 +14,8 @@
         android:theme="@style/Theme.Noonsong_market">
         <activity
             android:name=".PublishActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.PublishActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

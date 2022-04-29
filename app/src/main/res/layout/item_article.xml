@@ -47,7 +47,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="1dp"
             android:text="4월 22일 오후 02:00"
-            android:textSize="9sp"
+            android:textSize="8sp"
             app:layout_constraintStart_toEndOf="@id/product_iv"
             app:layout_constraintTop_toBottomOf="@id/product_title_tv" />
 
@@ -56,7 +56,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="4dp"
+            android:textStyle="bold"
             android:text="220,000원"
             android:textColor="@color/black"
             android:textSize="16sp"
