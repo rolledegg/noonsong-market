@@ -17,7 +17,7 @@ import smu.app.noonsong_market.model.Product
 
 class HomeFragment : Fragment() {
     companion object {
-        const val TAG: String = "LOG"
+        const val TAG: String = "HomeFragment"
 
         fun newInstance() : HomeFragment {
             return HomeFragment()
